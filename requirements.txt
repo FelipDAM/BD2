@@ -1,0 +1,2 @@
+install pymongo
+install python3-tk
