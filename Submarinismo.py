@@ -13,7 +13,7 @@ from pymongo import MongoClient
 
 
 # Conexión a la base de datos MongoDB
-client = MongoClient('mongodb://192.168.1.131/')
+client = MongoClient('mongodb://localhost/')
 db = client['club_submarinismo']
 expediciones = db['expediciones']
 animales = db['animales']
